@@ -11,12 +11,14 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <About />
-      <Divider />
-      <Services />
-      <Divider />
-      <Contact />
-      <Footer />
+      <div className="max-w-7xl bg-slate-300/5 mx-auto py-2">
+        <About />
+        <Divider />
+        <Services />
+        <Divider />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }

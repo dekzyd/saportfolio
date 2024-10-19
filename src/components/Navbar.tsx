@@ -9,19 +9,27 @@ export default function Navbar() {
         </div>
         <ul className="flex justify-between items-center gap-2 md:gap-5">
           <Link href="#about">
-            <li className="text-sm md:text-base">About</li>
+            <li className="text-sm md:text-base md:px-2 md:py-1 rounded-md hover:bg-slate-100 hover:text-slate-900 transition ease-in-out duration-300">
+              About
+            </li>
           </Link>
           <Link href="#services">
-            <li className="text-sm md:text-base">Services</li>
+            <li className="text-sm md:text-base md:px-2 md:py-1 rounded-md hover:bg-slate-100 hover:text-slate-900 transition ease-in-out duration-300">
+              Services
+            </li>
           </Link>
           <Link href="#contact">
-            <li className="text-sm md:text-base">Contact</li>
+            <li className="text-sm md:text-base md:px-2 md:py-1 rounded-md hover:bg-slate-100 hover:text-slate-900 transition ease-in-out duration-300">
+              Contact
+            </li>
           </Link>
           <a
             href="https://drive.google.com/file/d/1IZWqmwdrQLn8W8eyjTh_6a3ujV_lEZHR/view?usp=drive_link"
             target="_blank"
           >
-            <li className="text-sm md:text-base">View CV</li>
+            <li className="text-sm md:text-base md:px-2 md:py-1 rounded-md hover:bg-slate-100 hover:text-slate-900 transition ease-in-out duration-300">
+              View CV
+            </li>
           </a>
         </ul>
       </nav>
